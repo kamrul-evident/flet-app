@@ -41,7 +41,7 @@ jobs:
         run: |
           mkdir -p "${{ github.workspace }}/dist"
           cd "${{ github.workspace }}"
-          flet build macos --project . --name dataryx --package com.dataryx.app
+          flet build macos --project dataryx --org com.dataryx --product "Dataryx"
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
