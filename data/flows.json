@@ -1,0 +1,18 @@
+[
+    {
+        "name": "Test Flow",
+        "script_path": "/Users/miraz/Downloads/src/test.py",
+        "schedule_type": "Interval",
+        "enabled": true,
+        "params": {},
+        "credential_ids": [],
+        "owner": "kamrul",
+        "interval_minutes": 200,
+        "id": "3be81efa-8412-4ce9-8ad1-16015cf7f551",
+        "status": "Success",
+        "last_run": "2026-06-15T15:15:20.529356",
+        "next_run": null,
+        "created_at": null,
+        "last_completed": "2026-06-15T15:15:20.611266"
+    }
+]
